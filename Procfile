@@ -1,1 +1,1 @@
-web: gunicorn run:app
+web: gunicorn django-heroku.wsgi --log-file -
